@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="79280" started-at="2018-08-29T07:38:20Z" finished-at="2018-08-29T07:39:39Z">
+    <groups>
+    </groups>
+    <test name="EdgeTest" duration-ms="18699" started-at="2018-08-29T07:38:20Z" finished-at="2018-08-29T07:38:39Z">
+      <class name="Pragati.Parallel_Browser">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:Pragati.Parallel_Browser@7a9273a8]" name="openBrowser" duration-ms="18662" started-at="2018-08-29T07:38:20Z" finished-at="2018-08-29T07:38:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+      </class> <!-- Pragati.Parallel_Browser -->
+    </test> <!-- EdgeTest -->
+    <test name="IETest" duration-ms="68170" started-at="2018-08-29T07:38:20Z" finished-at="2018-08-29T07:39:28Z">
+      <class name="Pragati.Parallel_Browser">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:Pragati.Parallel_Browser@58c1670b]" name="openBrowser" duration-ms="68136" started-at="2018-08-29T07:38:20Z" finished-at="2018-08-29T07:39:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+      </class> <!-- Pragati.Parallel_Browser -->
+    </test> <!-- IETest -->
+    <test name="ChromeTest" duration-ms="79280" started-at="2018-08-29T07:38:20Z" finished-at="2018-08-29T07:39:39Z">
+      <class name="Pragati.Parallel_Browser">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:Pragati.Parallel_Browser@7a765367]" name="openBrowser" duration-ms="79246" started-at="2018-08-29T07:38:20Z" finished-at="2018-08-29T07:39:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+      </class> <!-- Pragati.Parallel_Browser -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Suite -->
+</testng-results>

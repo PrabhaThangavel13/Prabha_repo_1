@@ -19,6 +19,7 @@ public class multiBrowser {
 	public static void main(String[] args) {
 		
 		try {
+			@SuppressWarnings("unused")
 			multiBrowser obj=new multiBrowser();
 			//obj.browser_setup("chrome");
 
